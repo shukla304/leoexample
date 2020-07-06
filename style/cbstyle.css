@@ -1,0 +1,69 @@
+
+  .cbill {
+    margin:0 auto;
+    max-width:500px;
+  }
+  .cbill-header {
+    text-align:center;
+    font-size:200%;
+    font-family:Montserrat,sans-serif;
+    color:#333;
+  }
+  /* .cbill-header h1 {
+     text-shadow: 0px 5px 15px #000; */
+  
+  .cbill-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color: black;
+    font-size: 12px;
+  }
+  .cbill-form {
+    box-sizing:border-box;
+    padding-top:5px;
+    padding-bottom:2.2%;
+    margin:5% auto;
+    text-align:center;
+    border: solid;
+  }
+  .cbill input[type="text"],
+  .cbill input[type="date"],.cbill input[type="number"] {
+    max-width:400px;
+    width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 1em;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:10px;
+  }
+  .cbill-form input[type="button"] {
+    height:40px;
+    width:120px;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    color: slategrey;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+  .cbill-form input[type="button"]:hover {
+    background:#5cd8f7;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+  input:focus {
+    background-color: #F0F7FC;
+  }
+  /*Media Querie*/
+  @media only screen and (min-width : 150px) and (max-width : 530px){
+    .cbill-form h3 {
+      text-align:center;
+      margin:0;
+    }
+    .cbill-button {
+      margin-bottom:10px;
+    }
+  }
